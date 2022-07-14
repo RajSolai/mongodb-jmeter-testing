@@ -47,3 +47,5 @@ As the Jmeter application comes with older version of mongodb driver we have to 
 
 - Click on green run button on top bar of Jmeter to start testing
 - View results on one of the listeners
+![new thread group](./images/5.png)
+
