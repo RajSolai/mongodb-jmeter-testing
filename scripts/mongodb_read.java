@@ -18,7 +18,7 @@ try {
  MongoDatabase database = mongoClient.getDatabase("jmeter_test");
  MongoCollection<Document> collection = database.getCollection("blazemeter_tutorial");
 
- List<Document> cursor = collection.find().iterator().toArray();
+ List<Document> cursor = collection.find().iterator().toList();
   
  return "Connected to Got documents from collection";
 }
